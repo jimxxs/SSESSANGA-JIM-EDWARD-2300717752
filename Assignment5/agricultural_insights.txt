@@ -1,0 +1,43 @@
+
+AgriSmart AI Data Analysis Insights:
+
+1. Data Quality:
+   - Initial dataset: 913 records
+   - After cleaning: 802 records
+   - Removed duplicates and handled missing values
+
+2. Key Findings:
+   - Most influential factors for fertilizer recommendations:
+     Fertilizer_Recommended(kg/ha)    1.000000
+Soil_pH                          0.083672
+Humidity(%)                      0.015307
+   
+   - Crop type with highest soil moisture:
+     Crop_Type
+Wheat    47.185349
+   
+   - Irrigation recommendations for high temperatures:
+     Crop_Type
+Beans       17.857692
+Lettuce     16.297297
+Maize       16.625455
+Tomatoes    18.919565
+Wheat       18.811429
+
+3. Recommendations:
+   a) Soil Management:
+      - Focus on maintaining optimal soil moisture levels
+      - Monitor pH levels regularly
+   
+   b) Irrigation Strategy:
+      - Adjust irrigation for crops in high-temperature conditions
+      - Implement precision irrigation based on crop-specific needs
+   
+   c) Fertilization Optimization:
+      - Consider soil moisture and pH when planning fertilization
+      - Customize fertilizer applications by crop type
+
+4. Next Steps:
+   - Implement automated monitoring system
+   - Develop crop-specific irrigation schedules
+   - Create early warning system for extreme conditions
