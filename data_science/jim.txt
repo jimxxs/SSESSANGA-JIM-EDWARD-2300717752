@@ -1,9 +1,0 @@
-This is a new line.
-This is another new line.
-This is an appended line to jim.txt.
-This is an appended line to jim.txt.
-This is an appended line to jim.txt.
-This is an appended line to jim.txt.
-This is an appended line to jim.txt.
-This is an appended line to jim.txt.
-This is an appended line to jim.txt.
