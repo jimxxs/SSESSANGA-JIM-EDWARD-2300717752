@@ -13,7 +13,7 @@ from sklearn.preprocessing import LabelEncoder, StandardScaler
 
 # Example: Encode categorical columns
 for col in df.select_dtypes(include=['object']).columns: 
-    if col != 'Churn':
+    if col != 'Churn': 
         df[col] = LabelEncoder().fit_transform(df[col])
 
 # Encode target if needed
