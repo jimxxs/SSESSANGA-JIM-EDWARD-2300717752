@@ -5,7 +5,7 @@ df = pd.read_csv('Churn.csv')
 
 # Quick look at the data
 print(df.head())
-print(df.info())
+# print(df.info())
 print(df['Churn'].value_counts())  # Assuming 'Churn' is the target column
 
 from sklearn.model_selection import train_test_split
@@ -51,9 +51,10 @@ history = model.fit(X_train, y_train, epochs=20, batch_size=32, validation_split
 loss, accuracy = model.evaluate(X_test, y_test)
 print(f'Test Accuracy: {accuracy:.2f}')
 
-
-
 from sklearn.metrics import classification_report
+
+# Add this line to generate predictions
+y_pred = (model.predict(X_test) > 0.5).astype("int32")
 
 print(classification_report(y_test, y_pred))
 
